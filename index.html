@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NORDTECH | High-Rate &amp; Paste Thickener Solutions — Tailings Dewatering, Retrofit &amp; Upgrade</title>
+<meta name="description" content="NORDTECH (Shenyang, China) designs and supplies high-rate and paste thickeners up to Ø60 m and upgrades existing thickeners with +15–55% throughput. Full range of dry magnetic separators, lab-based process design and turnkey delivery worldwide. Free preliminary sizing and quotation.">
+<link rel="canonical" href="https://tonynordtech-code.github.io/">
+<link rel="icon" type="image/jpeg" href="logo.jpg">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"NORDTECH","url":"https://tonynordtech-code.github.io","email":"tonynordtech@gmail.com","contactPoint":[{"@type":"ContactPoint","contactType":"sales","email":"tonynordtech@gmail.com","telephone":"+27721604684","availableLanguage":["English","Chinese"],"areaServed":["Africa","Central Asia","South America"]}],"description":"Engineering company providing lab-scale and pilot equipment (magnetic separators, slurry samplers, modular 1–5 t/h pilot lines), high-rate thickeners, paste thickeners and dry magnetic separators, plus thickener retrofit, lab-based process design and EP turnkey mineral processing solutions. Fleet references include leading international mineral laboratories, a national deep-mining key laboratory and mine sites in Zambia. Free preliminary sizing; lab testing via accredited partner laboratory.","address":{"@type":"PostalAddress","addressLocality":"Shenyang","addressRegion":"Liaoning","addressCountry":"CN"},"areaServed":["Africa","Central Asia","South America"],"knowsAbout":["lab magnetic separator","pilot plant","pilot line mineral processing","slurry sampler","high rate thickener","paste thickener","thickener retrofit","tailings dry stacking","CCD washing circuit","dry magnetic separation","EP turnkey mineral processing"]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Can we buy or rent lab equipment before committing to a plant?","acceptedAnswer":{"@type":"Answer","text":"Yes — most clients start there. Single lab machines (magnetic separators, slurry samplers, lab thickeners, HPGR) ship in weeks, with rental available for selected units. Modular 1–5 t/h pilot lines are quoted per flowsheet. The same fleet has operated for leading international mineral laboratories, a national deep-mining key laboratory in China, and mine sites in Zambia."}},
+{"@type":"Question","name":"What throughput do the pilot lines handle?","acceptedAnswer":{"@type":"Answer","text":"1–5 t/h depending on ore and flowsheet: a 1 t/h dry magnetic pilot line, HPGR air-separation dry lines, tailings dry-stack and backfill lines, an integrated rotary kiln line at 1–2 t/h, and a 120 t/h steel slag processing line. All skid-mounted on modular steel platforms and reassembled on site in days."}},
+{"@type":"Question","name":"How much capacity can a thickener retrofit add?","acceptedAnswer":{"@type":"Answer","text":"NORDTECH thickener retrofits typically raise throughput 15–55% and settling speed over 20%, cut energy consumption 10–25% and flocculant consumption 8–35%, and extend equipment life by 5–8 years — without replacing the existing tank."}},
+{"@type":"Question","name":"What underflow density can the paste thickener reach?","acceptedAnswer":{"@type":"Answer","text":"NORDTECH paste thickeners discharge at 60–75% w/w underflow, with diameters from 0.8 to 45 m, wall heights above 8 m and drive torque up to 9,600,000 Nm — designed for tailings surface stacking, CCD washing circuits and mine backfill."}},
+{"@type":"Question","name":"How is thickener size selected?","acceptedAnswer":{"@type":"Answer","text":"NORDTECH runs a standardized sedimentation and flocculation test on your representative sample (step 7 of the 8-step lab workflow), then sizes the thickener from measured settling data — not from generic catalogue curves."}},
+{"@type":"Question","name":"Can iron ore be beneficiated without water?","acceptedAnswer":{"@type":"Answer","text":"Yes. NORDTECH full-particle-size dry magnetic separators cover feed from 20–350 mm lump rejection (3,500–8,000 Gauss) to super-fine P80 = 0.025 mm cleaning, with zero water consumption and dry tailings discharge."}}]}
+</script>
+<style>
+:root{
+  --ink:#101820; --muted:#5c6773; --line:#e3e7ea; --bg:#ffffff;
+  --surface:#f6f7f8; --accent:#c2410c; --accent-dark:#9a3309;
+  --deep:#0e2433; --ok:#0f6e56;
+  --r:10px; --max:1180px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Inter","Segoe UI",-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+  color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:6px;
+  font-size:14px;font-weight:600;border:1px solid transparent;cursor:pointer;transition:.18s}
+.btn-primary{background:var(--accent);color:#fff}
+.btn-primary:hover{background:var(--accent-dark)}
+.btn-ghost{border-color:rgba(255,255,255,.45);color:#fff}
+.btn-ghost:hover{background:rgba(255,255,255,.12)}
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);
+  backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.04em}
+.logo-img{height:52px;width:auto;display:block}
+.logo small{display:block;font-size:9.5px;color:var(--muted);font-weight:500;letter-spacing:.12em}
+.menu{display:flex;gap:26px;font-size:14px;color:#33404c}
+.menu a:hover{color:var(--accent)}
+.nav-cta{display:flex;gap:12px;align-items:center}
+.burger{display:none;background:none;border:0;font-size:22px;cursor:pointer}
+.hero{background:linear-gradient(100deg,rgba(15,33,47,.94) 35%,rgba(15,33,47,.68)),url('hero.jpg') center/cover no-repeat,var(--deep);color:#fff;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;inset:0;
+  background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),
+                   linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);
+  background-size:56px 56px;pointer-events:none}
+.hero-inner{position:relative;z-index:2;padding:86px 0 78px;max-width:780px}
+.eyebrow{display:inline-block;font-size:12px;letter-spacing:.16em;text-transform:uppercase;
+  color:#f0a882;border:1px solid rgba(240,168,130,.35);padding:5px 12px;border-radius:100px;margin-bottom:22px}
+.hero h1{font-size:45px;line-height:1.18;font-weight:700;letter-spacing:-.01em}
+.hero h1 em{font-style:normal;color:#f5a97f}
+.hero p{margin-top:20px;font-size:16.5px;color:#c3d0da;max-width:640px}
+.hero-actions{display:flex;gap:14px;margin-top:34px;flex-wrap:wrap}
+.hero-note{margin-top:16px;font-size:13px;color:#8fa3b3}
+.trust{border-bottom:1px solid var(--line);background:#fff}
+.trust-inner{display:grid;grid-template-columns:repeat(4,1fr)}
+.trust-item{padding:24px 20px;text-align:center;border-left:1px solid var(--line)}
+.trust-item:first-child{border-left:0}
+.trust-item b{display:block;font-size:24px;font-weight:700;color:var(--deep)}
+.trust-item span{font-size:12.5px;color:var(--muted)}
+section{padding:76px 0}
+.sec-head{max-width:680px;margin-bottom:40px}
+.sec-tag{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:600}
+.sec-head h2{font-size:30px;line-height:1.3;margin-top:10px;font-weight:700;letter-spacing:-.01em}
+.sec-head p{margin-top:12px;color:var(--muted);font-size:15px}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.card{border:1px solid var(--line);border-radius:var(--r);background:#fff;
+  padding:24px 20px;transition:.2s;display:block}
+.card:hover{border-color:#c9d0d6;transform:translateY(-2px)}
+.card h3{font-size:15.5px;font-weight:600;margin-bottom:8px}
+.card p{font-size:13.5px;color:var(--muted);line-height:1.55}
+.card .more{margin-top:12px;font-size:13px;color:var(--accent);font-weight:600}
+.card.secondary{background:var(--surface)}
+.card.secondary h3{font-size:14.5px}
+.solutions{background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{background:#fff;border:1px solid var(--line);border-radius:100px;padding:9px 18px;
+  font-size:13.5px;color:#33404c;transition:.18s}
+.chip:hover{border-color:var(--accent);color:var(--accent)}
+.tbl{width:100%;border-collapse:collapse;font-size:13.5px;background:#fff;
+  border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.tbl th{background:var(--deep);color:#fff;text-align:left;padding:12px 14px;font-weight:600;font-size:12.5px}
+.tbl td{padding:12px 14px;border-top:1px solid var(--line);vertical-align:top}
+.tbl td b{color:var(--deep)}
+.tbl-wrap{overflow-x:auto}
+.model{font-weight:600;color:var(--deep);white-space:nowrap}
+.flow8{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:32px}
+.flow-step{background:#fff;border:1px solid var(--line);border-radius:8px;padding:16px}
+.flow-step .n{font-size:12px;font-weight:700;color:var(--accent)}
+.flow-step b{display:block;font-size:14px;font-weight:600;margin:4px 0}
+.flow-step span{font-size:12.5px;color:var(--muted)}
+.retro{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:20px}
+.chain{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:14px;font-size:13px}
+.chain span{background:#fff;border:1px solid var(--line);border-radius:6px;padding:7px 12px;color:#33404c}
+.chain i{color:#b6c0c8;font-style:normal}
+.quality{background:var(--surface);border-top:1px solid var(--line)}
+.photo{width:100%;display:block;border-radius:10px}
+.card .photo{height:168px;object-fit:cover;margin-bottom:14px}
+.wide-photo{margin-top:34px}
+.wide-photo img{width:100%;height:300px;object-fit:cover;border-radius:12px}
+.wide-photo figcaption,.duo figcaption{font-size:12.5px;color:var(--muted);margin-top:8px}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:30px}
+.duo figure{margin:0}
+.duo img{width:100%;height:250px;object-fit:cover;border-radius:10px}
+.duo h3{font-size:19px;margin:0 0 6px}
+.duo .sub{font-size:13px;color:var(--muted);margin:0 0 14px}
+.duo ul{margin:0;padding-left:18px;display:grid;gap:9px}
+.duo li{font-size:14px;line-height:1.55;color:#33404c}
+.duo li b{color:var(--deep)}
+.stat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-bottom:36px}
+.stat{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:24px 20px;text-align:center}
+.stat b{display:block;font-size:26px;font-weight:700;color:var(--deep)}
+.stat span{font-size:12.5px;color:var(--muted)}
+.why{background:var(--deep);color:#fff}
+.why .sec-tag{color:#f0a882}
+.why .sec-head p{color:#a9bcc9}
+.why-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:32px 48px}
+.why-item{display:flex;gap:16px}
+.why-item .num{font-size:13px;font-weight:700;color:#f0a882;padding-top:3px}
+.why-item h3{font-size:16px;font-weight:600;margin-bottom:6px}
+.why-item p{font-size:14px;color:#a9bcc9;line-height:1.6}
+.contact{background:var(--surface);border-top:1px solid var(--line)}
+.contact-grid{display:grid;grid-template-columns:0.85fr 1.15fr;gap:56px;align-items:start}
+.contact h2{font-size:30px;line-height:1.3;letter-spacing:-.01em}
+.contact .lead{margin-top:14px;color:var(--muted);font-size:15px}
+.contact-list{list-style:none;margin-top:28px;font-size:14px;color:#33404c}
+.contact-list li{padding:10px 0;border-bottom:1px dashed var(--line);display:flex;gap:10px}
+.contact-list b{font-weight:600;min-width:110px;color:var(--ink)}
+form{background:#fff;border:1px solid var(--line);border-radius:12px;padding:26px}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+label{display:block;font-size:12.5px;color:var(--muted);margin-bottom:6px;font-weight:500}
+input,select,textarea{width:100%;padding:11px 12px;border:1px solid #d8dee3;border-radius:6px;
+  font-size:14px;font-family:inherit;color:var(--ink);background:#fff}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(194,65,12,.1)}
+textarea{resize:vertical;min-height:88px}
+.form-foot{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:6px;flex-wrap:wrap}
+.form-foot small{font-size:11.5px;color:#8b98a3;max-width:320px;line-height:1.5}
+.form-alt{margin-top:14px;font-size:12px;color:#8b98a3}
+.form-alt a{color:var(--accent);border-bottom:1px solid rgba(194,65,12,.35)}
+#toast{position:fixed;left:50%;bottom:36px;transform:translate(-50%,20px);background:var(--deep);
+  color:#fff;padding:12px 22px;border-radius:8px;font-size:13.5px;opacity:0;pointer-events:none;transition:.25s;z-index:99}
+#toast.show{opacity:1;transform:translate(-50%,0)}
+.wa-float{position:fixed;right:22px;bottom:22px;width:56px;height:56px;border-radius:50%;
+  background:#25d366;display:grid;place-items:center;box-shadow:0 4px 14px rgba(0,0,0,.22);
+  z-index:90;transition:.18s}
+.wa-float:hover{transform:scale(1.06);background:#1fbe5b}
+.lab-sub{margin:30px 0 14px;font-size:16.5px;font-weight:700;color:var(--deep)}
+.feat{display:grid;grid-template-columns:1.05fr 1fr;gap:26px;align-items:center;background:#fff;
+  border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:var(--r);
+  padding:24px;margin-bottom:34px}
+.feat img{width:100%;height:300px;object-fit:cover;border-radius:10px;display:block}
+.feat .feat-tag{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--accent);border:1px solid rgba(194,65,12,.4);
+  border-radius:999px;padding:4px 12px;margin-bottom:12px}
+.feat h3{font-size:21px;font-weight:700;color:var(--deep);margin-bottom:10px}
+.feat ul{list-style:none;margin-top:14px}
+.feat li{padding:6px 0 6px 22px;position:relative;font-size:14px;color:var(--muted);line-height:1.5}
+.feat li::before{content:"✓";position:absolute;left:0;color:var(--accent);font-weight:700}
+.faq-item{border-bottom:1px solid var(--line);padding:20px 0}
+.faq-item summary{cursor:pointer;font-size:15px;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:20px}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{content:"+";color:var(--accent);font-weight:400;font-size:18px;line-height:1}
+.faq-item[open] summary::after{content:"–"}
+.faq-item p{margin-top:12px;font-size:14px;color:var(--muted);max-width:840px}
+footer{background:#0a1c29;color:#8fa3b3;padding:52px 0 26px;font-size:13.5px}
+.foot-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:40px;padding-bottom:34px;border-bottom:1px solid rgba(255,255,255,.1)}
+footer h4{color:#fff;font-size:13px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:14px}
+footer li{list-style:none;padding:5px 0}
+footer a:hover{color:#fff}
+.foot-bottom{padding-top:20px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:12.5px}
+@media(max-width:960px){
+  .grid-4{grid-template-columns:repeat(2,1fr)}
+  .grid-3{grid-template-columns:1fr}
+  .feat{grid-template-columns:1fr;padding:18px}
+  .feat img{height:220px}
+  .stat-grid,.retro{grid-template-columns:repeat(2,1fr)}
+  .why-grid{grid-template-columns:1fr}
+  .contact-grid{grid-template-columns:1fr;gap:32px}
+  .flow8{grid-template-columns:repeat(2,1fr)}
+  .hero h1{font-size:33px}
+  .trust-inner{grid-template-columns:repeat(2,1fr)}
+  .trust-item:nth-child(3){border-left:0}
+  .foot-grid{grid-template-columns:1fr 1fr}
+  .menu,.nav-cta .btn{display:none}
+  .burger{display:block}
+  .menu.open{display:flex;position:absolute;top:68px;left:0;right:0;background:#fff;
+    flex-direction:column;gap:0;padding:8px 24px 18px;border-bottom:1px solid var(--line)}
+  .menu.open a{padding:12px 0;border-bottom:1px solid var(--line)}
+}
+@media(max-width:560px){
+  .hero-inner{padding:56px 0}
+  .hero h1{font-size:27px}
+  .form-row{grid-template-columns:1fr}
+  .flow8,.stat-grid,.retro{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#">
+      <img class="logo-img" src="logo.jpg" alt="NORDTECH Mining Solutions logo">
+    </a>
+    <nav class="menu" id="menu">
+      <a href="#thickeners">Thickeners</a>
+      <a href="#retrofit">Retrofit</a>
+      <a href="#lab">Lab &amp; Pilot</a>
+      <a href="#sampler">Sampler</a>
+      <a href="#separators">Dry Separators</a>
+      <a href="#grinding">Grinding &amp; Thermal</a>
+      <a href="#process">Lab &amp; Process</a>
+      <a href="#quality">Quality</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn btn-primary" href="#contact">Get thickener sizing</a>
+      <button class="burger" id="burger" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap hero-inner">
+    <span class="eyebrow">Shenyang, China · Ore testing · Pilot plants · Process equipment</span>
+    <h1>Prove your ore in the lab — <em>before you spend on a plant.</em></h1>
+    <p>NORDTEC runs your ore through bench tests, 1–5 t/h pilot lines and full-scale thickeners, separators and roasting systems — the same engineering team from first test to final plant. Our lab and pilot fleet has operated for leading international laboratories, a national key laboratory in China, and mine sites in Zambia. Every quotation is backed by test data, not catalogue curves.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#lab">Lab &amp; pilot equipment →</a>
+      <a class="btn btn-ghost" href="#process">How testing works</a>
+    </div>
+    <p class="hero-note">Single lab machines ship in weeks — no plant project required. <a href="#sampler" style="color:#f0a882">RXGD slurry sampler — ships in days →</a></p>
+  </div>
+</div>
+
+<div class="trust">
+  <div class="wrap trust-inner">
+    <div class="trust-item"><b>ALS</b><span>Turnkey dry magnetic pilot line</span></div>
+    <div class="trust-item"><b>BV Laboratory</b><span>Rental lab separator fleet on site</span></div>
+    <div class="trust-item"><b>Patents · 3 countries</b><span>Granted on lab wet separator</span></div>
+    <div class="trust-item"><b>Zambia</b><span>Slurry samplers delivered &amp; running</span></div>
+  </div>
+</div>
+
+<section id="lab" style="background:var(--surface);border-top:2px solid var(--accent);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head" style="margin-bottom:26px">
+      <span class="sec-tag" style="color:var(--accent);border-color:rgba(194,65,12,.4)">Featured · Fast decision</span>
+      <h2>Lab-scale &amp; pilot equipment — buy the proof before the plant</h2>
+      <p>The same lab and pilot fleet we use for in-house testing is available as standalone equipment: single machines for bench verification, 1–5 t/h modular pilot lines for bankable process data. Skid-mounted, shipped worldwide, installed in days. Fleet references: leading international mineral laboratories (ALS, BV), a national deep-mining key laboratory, and mine sites in Zambia.</p>
+    </div>
+    <div class="feat" id="sampler">
+      <img src="sampler.jpg" alt="RXGD multi-channel automatic slurry sampler installed on a process pipeline" loading="lazy">
+      <div>
+        <span class="feat-tag">Featured — fast-ship item</span>
+        <h3>RXGD Multi-Channel Slurry Sampler</h3>
+        <p style="font-size:14px;color:var(--muted)">Know what is actually in your pipes — automatic sampling, around the clock, on any concentrator.</p>
+        <ul>
+          <li>Three channels, 2–3 sampler sets — raw ore, concentrate and tailings monitored in one unit</li>
+          <li>Fully automatic timed sampling: timer relay + proximity switch + solenoid valve; PLC + touch-screen optional</li>
+          <li>316L stainless sampling tubes with ceramic lining; UHMWPE distribution box for corrosive Cu / Au duties</li>
+          <li>Pneumatically driven — works with any concentrator, not just ours</li>
+          <li>Proven: delivered and running at a mine site in Zambia</li>
+          <li>Ships in a crate, installed in hours — no engineering project required</li>
+        </ul>
+        <p style="margin-top:16px;font-size:14.5px">Get one without a plant project: send us your <b>pipe diameter and slurry properties</b> on <a href="#contact" style="color:var(--accent);font-weight:600">WhatsApp or email</a> — quotation in one business day.</p>
+      </div>
+    </div>
+    <h3 class="lab-sub">Pilot lines · 1–5 t/h, modular steel platform</h3>
+    <div class="grid-3">
+      <a class="card" href="#contact">
+        <h3>Dry Magnetic Pilot Line · 1 t/h</h3>
+        <p>Jaw + cone + roll crushing, swing screen, magnetic separation at 4,000–12,000 Gauss, dedusting — with belt/elevator auxiliaries on a modular steel platform. For lithium ores, REE and hematite verification. Delivered turnkey for a leading international laboratory group.</p>
+        <div class="more">Get layout &amp; quote →</div>
+      </a>
+      <a class="card" href="#contact">
+        <h3>HPGR Air-Separation Dry Line</h3>
+        <p>Jaw + cone + HPGR followed by balanced, fine and ultra-fine dry separators at 900–4,000 Gauss, with dedusting. Dry grinding–dry separation verification for magnetite and mixed iron ores.</p>
+        <div class="more">Get layout &amp; quote →</div>
+      </a>
+      <a class="card" href="#contact">
+        <h3>Tailings Dry-Stack &amp; Backfill Pilot Line</h3>
+        <p>Pulping unit, modular deep-cone thickener (Ø0.8–1 m × 5–10 m), slurry circulation loop, water treatment and full dosing set. Dry-stack and backfill verification for every tailings type — operating at a national deep-mining key laboratory.</p>
+        <div class="more">Get layout &amp; quote →</div>
+      </a>
+      <a class="card" href="#contact">
+        <h3>Integrated Rotary Kiln Pilot Line · 1–2 t/h</h3>
+        <p>Φ1.0 × 10 m integrated kiln with feeding, drying, electromagnetic heating, dedusting, cooling and three-stage dry separation. Handles feed at 20%+ moisture — Ta/Nb–ilmenite upgraded from ~25% to ~50% concentrate.</p>
+        <div class="more">Get layout &amp; quote →</div>
+      </a>
+      <a class="card" href="#contact">
+        <h3>Steel Slag Processing Line · 120 t/h</h3>
+        <p>Crushing, rod milling, iron removal and 7 magnetic separators on a modular platform. Produces +10 mm lump steel above 85% Fe and concentrate above 50% Fe. Delivered and running in Russia.</p>
+        <div class="more">Get layout &amp; quote →</div>
+      </a>
+      <a class="card" href="#contact">
+        <h3>Custom Pilot Line</h3>
+        <p>Send your flowsheet, ore data or target — we configure a modular pilot line from the same building blocks and return sizing, layout and quotation with test data behind it.</p>
+        <div class="more">Describe your project →</div>
+      </a>
+    </div>
+    <h3 class="lab-sub">Single lab machines · bench &amp; industrial verification</h3>
+    <div class="grid-3">
+      <a class="card" href="#contact">
+        <h3>LBL-1 Wet Magnetic Separator</h3>
+        <p>800–4,000 Gauss adjustable, co-/counter-current tank, visible field readout. 2–10 kg per test or 2 t/h continuous — direct industrial verification against the Davis tube. <b>Patents granted in three countries.</b> Operating at a leading international laboratory.</p>
+        <div class="more">Get quote →</div>
+      </a>
+      <a class="card" href="#contact">
+        <h3>High-Field Wet Magnetic Separator</h3>
+        <p>3,000–7,000 Gauss adjustable, wide-range speed control, co-/counter-current tank. 2–10 kg per test, 2 t/h continuous — for mixed iron and ilmenite verification.</p>
+        <div class="more">Get quote →</div>
+      </a>
+      <a class="card" href="#contact">
+        <h3>Balanced Dry Separator · 0–10 mm</h3>
+        <p>3,500 Gauss standard — configurable to 1,500–10,000 Gauss. 2–10 kg per test, 2 t/h continuous. For magnetite, mixed iron and ilmenite. In service at a leading international laboratory.</p>
+        <div class="more">Get quote →</div>
+      </a>
+      <a class="card" href="#contact">
+        <h3>Fine Dry Separator · 0–2 mm</h3>
+        <p>900 / 1,800 Gauss (any field strength on request). 2–10 kg per test, 2 t/h continuous; two units in tandem for direct industrial verification. Magnetite and sand ores. Rental available.</p>
+        <div class="more">Get quote →</div>
+      </a>
+      <a class="card" href="#contact">
+        <h3>Ultra-Fine Dry Separator · 0.05–1 mm</h3>
+        <p>4,000 Gauss gradient field, wide-range speed adjustment. Direct industrial verification for tailings and collected-dust re-processing. In rental service at a leading laboratory.</p>
+        <div class="more">Get quote →</div>
+      </a>
+      <a class="card" href="#contact">
+        <h3>Multi-Stage Dry Separator for Hematite</h3>
+        <p>6000 / 8000 / 9000 / 10,000 Gauss multi-stage field, 3+ t/h per unit — dry beneficiation of weakly magnetic ores, unique in its class. Operating at a major international iron-ore producer.</p>
+        <div class="more">Get quote →</div>
+      </a>
+      <a class="card" href="#contact">
+        <h3>Modular Deep-Cone Thickener · Lab</h3>
+        <p>Modular design, Ø0.8–1 m × 5–10 m, complete with dosing, dilution and settling tanks. Settling and flocculation testing that scales straight to industrial verification.</p>
+        <div class="more">Get quote →</div>
+      </a>
+      <a class="card" href="#contact">
+        <h3>Mobile Demagnetizer</h3>
+        <p>Mobile design, two-stage adjustable power, 20 kW. In service at a leading international laboratory.</p>
+        <div class="more">Get quote →</div>
+      </a>
+      <a class="card" href="#contact">
+        <h3>Lab HPGR · 3513</h3>
+        <p>Modular integrated high-pressure grinding roll, −20 mm feed, 2 t/h — bench-scale HPGR for liberation and energy studies.</p>
+        <div class="more">Get quote →</div>
+      </a>
+    </div>
+    <div class="chain" style="margin-top:24px">
+      <b style="font-size:14px">Crushing, screening &amp; grinding auxiliaries:</b>
+      <span>Laboratory jaw &amp; sealed jaw crushers</span>
+      <span>Roll crusher</span>
+      <span>Swing screen</span>
+      <span>Belt conveyor</span>
+      <span>Raymond mill</span>
+      <span>Ball mill</span>
+      <span>Tower mill — specs on request</span>
+    </div>
+    <p style="margin-top:20px;font-size:14.5px"><b>Buy or rent, no plant project required:</b> tell us your ore and duty on <a href="#contact" style="color:var(--accent)">WhatsApp or email</a> — machine selection and quotation in one business day. Rental available for selected separators and demagnetizers.</p>
+  </div>
+</section>
+
+<section id="thickeners">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-tag">Full-scale · Thickening</span>
+      <h2>Thickening &amp; dewatering, engineered in-house</h2>
+      <p>From clear-water CCD circuits to paste-style tailings dry stacking. Every unit is sized against your own sedimentation test data — not generic catalogue curves.</p>
+    </div>
+    <div class="grid-3">
+      <a class="card" href="#contact">
+        <h3>High-Rate Thickener</h3>
+        <p>Φ4–60 m · liftable drive &amp; rake · torque up to 3,200,000 Nm · underflow 40–60% w/w · high-efficiency feedwell with flocculation mixing · 3–5× conventional throughput on 1/3–1/2 the footprint.</p>
+        <div class="more">Get sizing →</div>
+      </a>
+      <a class="card" href="#contact">
+        <h3>Paste Thickener</h3>
+        <p>Φ0.8–45 m · ultra-high wall 8 m+ · floor slope 30–45° · full-length dewatering rods · torque up to 9,600,000 Nm · underflow 60–75% w/w for dry stacking, CCD washing and mine backfill.</p>
+        <div class="more">Get sizing →</div>
+      </a>
+      <a class="card" href="#contact">
+        <h3>Hydromet &amp; Chemical Thickeners</h3>
+        <p>CCD washing circuit integration · clarification and washing in one unit · reduced flocculant consumption · engineered for metallurgical wastewater and chemical duties.</p>
+        <div class="more">Get sizing →</div>
+      </a>
+    </div>
+    <figure class="wide-photo">
+      <img src="rake.jpg" alt="Rake and feedwell assembly of a Nordtech high-rate thickener on site" loading="lazy">
+      <figcaption>Rake &amp; feedwell assembly of a Nordtech thickener on site — designed in Shenyang, fabricated to Nordtech drawings.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="retrofit" class="solutions">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-tag">Keep your tank</span>
+      <h2>Retrofit: more capacity without a new thickener</h2>
+      <p>Systematic upgrade of existing thickeners — feedwell, rake and drive redesign — to boost capacity and operating efficiency. Typical results:</p>
+    </div>
+    <div class="stat-grid">
+      <div class="stat"><b>+15–55%</b><span>Throughput increase</span></div>
+      <div class="stat"><b>+20%</b><span>Settling speed increase</span></div>
+      <div class="stat"><b>−10–25%</b><span>Energy reduction</span></div>
+      <div class="stat"><b>−8–35%</b><span>Flocculant savings</span></div>
+      <div class="stat"><b>+5–8 yrs</b><span>Equipment life extension</span></div>
+    </div>
+    <div class="retro">
+      <div class="flow-step"><b>1. Diagnosis</b><span>On-site assessment of tank, drive &amp; process</span></div>
+      <div class="flow-step"><b>2. Plan</b><span>Retrofit solution design</span></div>
+      <div class="flow-step"><b>3. Fabrication</b><span>Upgrade kit built to Nordtech drawings &amp; inspection</span></div>
+      <div class="flow-step"><b>4. Commissioning</b><span>Installation &amp; performance test</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="separators">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-tag">Full-scale · Dry separation</span>
+      <h2>Full-particle-size dry magnetic separation</h2>
+      <p>Six dry separator series cover the whole route — lump waste rejection at the conveyor head to super-fine concentrate cleaning. All-dry: no water, no wet tailings, made for arid sites.</p>
+    </div>
+    <div class="grid-4">
+      <a class="card" href="#sepmodels">
+        <h3>NDGS High-Speed</h3>
+        <p>Magnetite &amp; mixed ore, −12 mm. Pre-concentration after cone crusher, before HPGR. Rejects 15–50% waste.</p>
+        <div class="more">Specs →</div>
+      </a>
+      <a class="card" href="#sepmodels">
+        <h3>NDQG High-Intensity</h3>
+        <p>Hematite &amp; ilmenite, −10 mm. 7,000–11,000 Gauss, 200 t/h+.</p>
+        <div class="more">Specs →</div>
+      </a>
+      <a class="card" href="#sepmodels">
+        <h3>NDCG Fine-Particle</h3>
+        <p>−1.5 mm cleaning after HPGR, directly produces 67%+ Fe concentrate.</p>
+        <div class="more">Specs →</div>
+      </a>
+      <a class="card" href="#sepmodels">
+        <h3>NDF Super-Fine</h3>
+        <p>P80 = 0.074–0.025 mm dry separation, plus dust-attrition ore and tailings.</p>
+        <div class="more">Specs →</div>
+      </a>
+      <a class="card" href="#sepmodels">
+        <h3>NDQ Strong-Field</h3>
+        <p>Lithium ore iron removal &amp; hematite sorting. 10,000–15,000 Gauss.</p>
+        <div class="more">Specs →</div>
+      </a>
+      <a class="card" href="#sepmodels">
+        <h3>NDT Magnetic Pulley</h3>
+        <p>Primary waste rejection, 20–350 mm lump. 3,500–8,000 Gauss, 15%+ rejected.</p>
+        <div class="more">Specs →</div>
+      </a>
+      <a class="card secondary" href="#grinding">
+        <h3>HPGR · Tower Mill · Kiln</h3>
+        <p>WGM high-pressure grinding rolls, WTM tower mills and rotary kiln roasting lines — selected, integrated and delivered by Nordtech with trusted manufacturing partners.</p>
+        <div class="more">Grinding &amp; thermal →</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="grinding">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-tag">Grinding &amp; thermal processing</span>
+      <h2>From inter-particle crushing to roasting — one supplier</h2>
+      <p>HPGR and tower mills for efficient comminution and liberation, rotary kiln roasting with a full environmental package — delivered with our long-term partner factories and integrated into your flow sheet by Nordtech engineering.</p>
+    </div>
+    <div class="grid-3">
+      <a class="card" href="#contact">
+        <img class="photo" src="hpgr.jpg" alt="Nordtech WGM high-pressure grinding roll unit" loading="lazy">
+        <h3>WGM Intelligent HPGR</h3>
+        <p>WGM-5425 to WGM-360 series · roll Ø 540–3,600 mm · 30–7,400 t/h · drive 2×45–2×7,000 kW · layer-pressure inter-particle crushing · IoT remote O&amp;M · built by our long-term partner factory.</p>
+        <div class="more">Get selection →</div>
+      </a>
+      <a class="card" href="#contact">
+        <img class="photo" src="mill.jpg" alt="Nordtech WTM tower mill for fine grinding" loading="lazy">
+        <h3>WTM Intelligent Tower Mill</h3>
+        <p>WTM-075 to WTM-3300 · installed power 75–3,300 kW · 6–350 t/h · feed −200 mesh 60–70% to product −400 mesh 85–95% · composite wear liners · remote smart control.</p>
+        <div class="more">Get selection →</div>
+      </a>
+      <a class="card" href="#contact">
+        <img class="photo" src="kiln.jpg" alt="Rotary kiln roasting line with FGD system" loading="lazy">
+        <h3>Rotary Kiln Roasting Line</h3>
+        <p>Integrated kiln HK4-60 · 0.52–3.55 r/min · 315 kW + 30 kW drive · cooler HK3-30 at 20–50 t/h · wet FGD tower F3.2×9 m with 93–98% desulfurization · Siemens PLC · 200 t/h per unit · built by our long-term partner kiln works.</p>
+        <div class="more">Get selection →</div>
+      </a>
+    </div>
+    <div class="chain" style="margin-top:24px">
+      <b style="font-size:14px">Why these three matter together:</b>
+      <span>HPGR pre-crushing boosts downstream separation — liberation degree improved 2–6×</span>
+      <span>Tower mill delivers the fine feed that dry cleaning (NDCG / NDF) requires</span>
+      <span>Roasting converts refractory ores into separable feed, FGD built in</span>
+      <span>All three integrate into the same flow sheet and mass balance</span>
+    </div>
+  </div>
+</section>
+
+<section id="sepmodels" style="background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-tag">Separator specifications</span>
+      <h2>Numbers from our own beneficiation tests</h2>
+      <p>Data based on NORDTECH beneficiation test reports and engineering references.</p>
+    </div>
+    <div class="tbl-wrap">
+      <table class="tbl">
+        <thead><tr><th>Model</th><th>Application</th><th>Key parameters</th><th>Typical result</th></tr></thead>
+        <tbody>
+          <tr><td class="model">NDGS-1230-II</td><td>Magnetite &amp; mixed ore, coarse waste rejection</td><td>1,800 Gauss · 400 t/h · −10 mm</td><td>48–50% → 56–58% Fe, 20% waste rejected</td></tr>
+          <tr><td class="model">NDQG-1030-II</td><td>High-intensity cleaning (hematite)</td><td>10,000 Gauss · 200 t/h · −10 mm</td><td>50% → 58% Fe, 50% waste rejected</td></tr>
+          <tr><td class="model">NDCG-1240-IV</td><td>Fine-particle cleaning</td><td>900/1,800 Gauss · 200 t/h · −1.5 mm</td><td>33–34% → 67%+ Fe, yield 40%+</td></tr>
+          <tr><td class="model">NDF-50-II</td><td>Tailings &amp; dust-attrition ore cleaning</td><td>50–100 t/h · 80–400 mesh</td><td>20% → 65%+ Fe, tailings MFe ≤ 2%</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="chain" style="margin-top:26px">
+      <b style="font-size:14px">Built to last:</b>
+      <span>Through-shaft + large bearing — 6,000 h+ life <i>(vs ~1,000 h stub shaft)</i></span>
+      <span>Carbon-fiber drum shell + 3 mm ceramic tiles — 4,000 h+ <i>(vs ~1,000 h rubber)</i></span>
+      <span>Scraper + brush dual cleaning — no buildup, rain-season adaptable</span>
+      <span>Multi-pole flip magnetic system</span>
+    </div>
+    <div class="chain" style="margin-top:10px">
+      <b style="font-size:14px">Complete plant scope:</b>
+      <span><a href="#sampler" style="color:var(--accent)">RXGD slurry sampler — featured, ships in days →</a></span>
+      <span><a href="#grinding" style="color:var(--accent)">HPGR, tower mills &amp; rotary kiln roasting — see Grinding &amp; Thermal →</a></span>
+    </div>
+  </div>
+</section>
+
+<section id="process">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-tag">Lab testing &amp; process design</span>
+      <h2>Partnership starts with one ore sample</h2>
+      <p>Send a representative sample to our accredited partner lab in Shenyang. A standardized 8-step workflow takes it from receipt to a formal report — including the sedimentation test that sizes your thickener correctly. Preliminary assessment and sizing are free; physical test programs are quoted per sample, with the testing fee credited against your first order.</p>
+    </div>
+    <div class="flow8">
+      <div class="flow-step"><div class="n">01</div><b>Moisture test</b><span>Moisture determination</span></div>
+      <div class="flow-step"><div class="n">02</div><b>Size analysis</b><span>Particle size distribution</span></div>
+      <div class="flow-step"><div class="n">03</div><b>Mineralogy</b><span>Mineral composition</span></div>
+      <div class="flow-step"><div class="n">04</div><b>Chemical phase</b><span>Chemical phase analysis</span></div>
+      <div class="flow-step"><div class="n">05</div><b>Magnetic test</b><span>Magnetic separation route</span></div>
+      <div class="flow-step"><div class="n">06</div><b>Continuous test</b><span>Grinding–magnetic continuous run</span></div>
+      <div class="flow-step"><div class="n">07</div><b>Sedimentation test</b><span>Thickener sizing &amp; flocculant dosing</span></div>
+      <div class="flow-step"><div class="n">08</div><b>Report</b><span>Flow sheet, mass balance &amp; quotation</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="quality" class="quality">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-tag">Quality control</span>
+      <h2>Every unit meets spec at delivery — measured, not promised</h2>
+    </div>
+    <div class="stat-grid">
+      <div class="stat"><b>±2 mm</b><span>Structural assembly tolerance</span></div>
+      <div class="stat"><b>100%</b><span>Pre-shipment inspection coverage</span></div>
+      <div class="stat"><b>6–20 mm</b><span>Anti-corrosion plate thickness</span></div>
+      <div class="stat"><b>HRC 45–55</b><span>Verified wear surface hardness</span></div>
+    </div>
+    <div class="chain" style="margin-top:4px">
+      <b style="font-size:14px">R&amp;D &amp; testing:</b>
+      <span>Magnetic system FEM simulation for precise field control</span>
+      <span>HPGR liberation study — liberation degree improved 2–6×</span>
+      <span>Engineering lab with continuous test loop, design-data closed loop</span>
+      <span>Third-party inspection (SGS / BV) available on request</span>
+    </div>
+    <div class="duo">
+      <figure>
+        <img src="workshop.jpg" alt="Workshop lifting of a thickener drive cage during fabrication" loading="lazy">
+        <figcaption>Fabrication &amp; pre-shipment inspection at audited partner workshops — every critical weld and dimension checked before dispatch.</figcaption>
+      </figure>
+      <figure>
+        <img src="design3d.jpg" alt="3D structural design model of a modular separation platform" loading="lazy">
+        <figcaption>Engineering comes first: every platform and thickener is fully modelled in 3D before a single plate is cut.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="why">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-tag">Why Nordtech</span>
+      <h2>One responsible partner, from sample to plant</h2>
+      <p>A lean engineering company built for small and mid-scale projects: fast decisions, direct access to the engineers who design your circuit, honest pricing.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-item"><div class="num">01</div><div>
+        <h3>One-stop responsibility — single point of contact</h3>
+        <p>Lab testing, process design, procurement and delivery supervision under one roof. One contract, one accountable partner — no finger-pointing between vendors.</p></div></div>
+      <div class="why-item"><div class="num">02</div><div>
+        <h3>Audited partners, Nordtech-controlled quality</h3>
+        <p>Thickeners and magnetic separators are Nordtech's own designs, fabricated at long-term partner workshops to Nordtech drawings, with Nordtech inspection before shipment and brand-name key components throughout.</p></div></div>
+      <div class="why-item"><div class="num">03</div><div>
+        <h3>Modular design, faster construction</h3>
+        <p>Modular manufacturing shortens on-site construction time and reduces installation risk in remote locations.</p></div></div>
+      <div class="why-item"><div class="num">04</div><div>
+        <h3>Global delivery &amp; lifecycle support</h3>
+        <p>Overseas delivery experience across Africa, Central Asia and South America, with spare-part inventory and remote O&amp;M support.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap contact-grid">
+    <div>
+      <span class="sec-tag">Get thickener sizing</span>
+      <h2 style="margin-top:10px">Tell us your slurry.<br>We size the thickener — free.</h2>
+      <p class="lead">Send tank and process data for a free retrofit assessment, or a representative ore sample for an accredited lab test program (quoted per project). We return sizing, flow sheet and quotation with real test data behind it.</p>
+      <ul class="contact-list">
+        <li><b>Email</b><span><a href="mailto:tonynordtech@gmail.com?subject=Thickener%20sizing%20request%20%E2%80%94%20NORDTECH">tonynordtech@gmail.com</a></span></li>
+        <li><b>WhatsApp</b><span><a href="https://wa.me/27721604684" target="_blank" rel="noopener">+27 72 160 4684</a></span></li>
+        <li><b>Website</b><span>tonynordtech-code.github.io</span></li>
+        <li><b>Lab &amp; engineering</b><span>Shenyang, Liaoning, China</span></li>
+        <li><b>Languages</b><span>English · 中文 · on-site support</span></li>
+      </ul>
+    </div>
+    <form id="inquiry" action="mailto:tonynordtech@gmail.com" method="post" enctype="text/plain">
+      <div class="form-row">
+        <div><label for="name">Your name *</label><input id="name" required placeholder="Full name"></div>
+        <div><label for="company">Company</label><input id="company" placeholder="Company name"></div>
+      </div>
+      <div class="form-row">
+        <div><label for="email">Email *</label><input id="email" type="email" required placeholder="you@company.com"></div>
+        <div><label for="country">Country *</label><input id="country" required placeholder="Country"></div>
+      </div>
+      <div class="form-row">
+        <div><label for="need">What do you need? *</label>
+          <select id="need" required>
+            <option value="">Select…</option>
+            <option>Lab / pilot equipment</option>
+            <option>New high-rate thickener</option>
+            <option>New paste thickener / dry stacking</option>
+            <option>Existing thickener retrofit</option>
+            <option>Slurry sampler (RXGD)</option>
+            <option>Dry magnetic separator</option>
+            <option>Tower mill / HPGR</option>
+            <option>Rotary kiln roasting line</option>
+            <option>Ore lab testing</option>
+            <option>EP turnkey plant</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div><label for="capacity">Capacity / tank size</label><input id="capacity" placeholder="e.g. 200 t/h solids, or Ø24 m tank"></div>
+      </div>
+      <div style="margin-bottom:14px">
+        <label for="msg">Details — slurry properties, solids, current performance, site conditions</label>
+        <textarea id="msg" placeholder="Tailings 40 t/h solids, current thickener underflow only 30% w/w, want dry stacking above 60%. Existing tank Ø 18 m."></textarea>
+      </div>
+      <div class="form-foot">
+        <small>Sizing &amp; preliminary assessment free · lab testing quoted per sample · freight paid by sender.</small>
+        <button class="btn btn-primary" type="submit">Send inquiry →</button>
+      </div>
+      <p class="form-alt">Prefer email? Write to <a href="mailto:tonynordtech@gmail.com">tonynordtech@gmail.com</a> · or <a href="https://wa.me/27721604684" target="_blank" rel="noopener">WhatsApp</a> — a real engineer answers.</p>
+    </form>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-tag">Buyer questions</span>
+      <h2>Before you ask</h2>
+    </div>
+    <details class="faq-item" open>
+      <summary>Can we buy or rent lab equipment before committing to a plant?</summary>
+      <p>Yes — that is exactly how most clients start. Single lab machines (magnetic separators, samplers, thickeners, HPGR) ship in weeks, with rental available for selected dry separators and demagnetizers. Modular pilot lines of 1–5 t/h are quoted per flowsheet. The same fleet has operated for leading international mineral laboratories, a national deep-mining key laboratory in China, and mine sites in Zambia.</p>
+    </details>
+    <details class="faq-item">
+      <summary>What throughput do the pilot lines handle?</summary>
+      <p>1–5 t/h depending on ore and flowsheet: a dry magnetic pilot line at 1 t/h, HPGR air-separation dry lines, tailings dry-stack and backfill lines, an integrated rotary kiln line at 1–2 t/h, and a 120 t/h steel slag line. All are skid-mounted on modular steel platforms, disassembled into containers, and reassembled on site in days.</p>
+    </details>
+    <details class="faq-item">
+      <summary>How much capacity can a thickener retrofit actually add?</summary>
+      <p>Typical NORDTECH retrofits raise throughput by 15–55% and settling speed by over 20%, cut energy consumption 10–25% and flocculant consumption 8–35%, and add 5–8 years of equipment life — without replacing the existing tank. The range depends on your current feedwell, rake and drive condition, which the on-site diagnosis measures first.</p>
+    </details>
+    <details class="faq-item">
+      <summary>What underflow density can your paste thickener reach?</summary>
+      <p>Paste thickeners discharge at 60–75% w/w underflow for paste-style high-density tailings, with diameters from 0.8 to 45 m, wall heights above 8 m, floor slopes of 30–45° and drive torque up to 9,600,000 Nm. Applications include tailings surface stacking, CCD washing circuits and mine backfill.</p>
+    </details>
+    <details class="faq-item">
+      <summary>How do you size a thickener without visiting my site?</summary>
+      <p>Through the sedimentation and flocculation test — step 7 of our standardized 8-step lab workflow. You send a representative slurry or ore sample; we measure settling behavior and flocculant response, then size the thickener from your own data and return the report with the quotation. Sizing from your existing plant data is free; a full physical test program is quoted per sample, and the testing fee is credited against your first equipment order.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Can iron ore really be beneficiated without water?</summary>
+      <p>Yes. Our full-particle-size dry magnetic separator range covers 20–350 mm lump waste rejection (NDT pulley, 3,500–8,000 Gauss), high-speed pre-separation at 400 t/h (NDGS), high-intensity cleaning at 7,000–11,000 Gauss (NDQG), fine-particle cleaning at −1.5 mm (NDCG) and super-fine separation at P80 = 0.025 mm (NDF) — all with zero water consumption and dry tailings discharge.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Do you deliver EP turnkey projects overseas?</summary>
+      <p>Yes. We deliver Engineering-Procurement integrated turnkey plants, best suited to small and mid-scale operations: engineering design, fabrication at audited partner facilities under Nordtech inspection, logistics and customs, civil and installation support, commissioning and performance testing, plus operator training and O&amp;M. Modular design shortens construction time, and spare-part inventory plus remote support cover the full lifecycle.</p>
+    </details>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="logo" href="#" style="color:#fff;margin-bottom:14px">
+          <span class="logo-mark" style="background:#1b3343">N</span>
+          <span>NORDTECH<small style="color:#7c8f9d">THICKENING &amp; MAGNETIC SEPARATION</small></span>
+        </a>
+        <p style="max-width:280px;line-height:1.7">High-rate and paste thickeners, dry magnetic separators — engineered in Shenyang, China. Lab-based process design, free preliminary sizing and turnkey delivery worldwide.</p>
+      </div>
+      <div><h4>Thickeners</h4><ul>
+        <li><a href="#thickeners">High-rate thickener</a></li><li><a href="#thickeners">Paste thickener</a></li>
+        <li><a href="#thickeners">CCD &amp; chemical duty</a></li><li><a href="#retrofit">Retrofit &amp; upgrade</a></li></ul></div>
+      <div><h4>Separators &amp; Thermal</h4><ul>
+        <li><a href="#separators">NDGS / NDQG / NDCG</a></li><li><a href="#separators">NDF / NDQ / NDT</a></li>
+        <li><a href="#grinding">WGM HPGR</a></li><li><a href="#grinding">WTM tower mill</a></li>
+        <li><a href="#grinding">Rotary kiln roasting</a></li></ul></div>
+      <div><h4>Services</h4><ul>
+        <li><a href="#lab">Lab &amp; pilot equipment</a></li>
+        <li><a href="#process">Lab testing</a></li><li><a href="#process">Process design</a></li>
+        <li><a href="#quality">Quality</a></li><li><a href="#contact">Contact</a></li></ul></div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="year">2026</span> NORDTECH · Shenyang, Liaoning, China</span>
+      <span>tonynordtech-code.github.io · <a href="mailto:tonynordtech@gmail.com">tonynordtech@gmail.com</a> · WhatsApp +27 72 160 4684</span>
+    </div>
+  </div>
+</footer>
+
+<div id="toast">Opening your email app — send it and we reply within one business day.</div>
+
+<a class="wa-float" href="https://wa.me/27721604684?text=Hello%20NORDTECH%2C%20I%20need%20a%20thickener%20sizing%20or%20ore%20lab%20testing." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 32 32" width="26" height="26" fill="#fff" aria-hidden="true"><path d="M16 3C9.4 3 4 8.3 4 14.9c0 2.6.8 5 2.3 7L4 29l7.3-2.3c1.9 1 4 1.6 6.2 1.6h.5c6.6 0 12-5.3 12-11.9S22.6 3 16 3zm0 21.7c-2 0-3.9-.5-5.5-1.5l-.4-.2-4.3 1.4 1.4-4.1-.3-.4c-1.2-1.7-1.8-3.7-1.8-5.8C5.1 9.4 10 4.9 16 4.9s10.9 4.5 10.9 10-4.9 9.8-10.9 9.8zm6-7.9c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2-.2.3-.9 1.1-1 1.3-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-2-1.8-2.3-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.3.3-.6.1-.2 0-.5 0-.6-.1-.2-.8-1.9-1-2.5-.3-.6-.6-.5-.8-.5h-.7c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.5c.2.2 2.4 3.7 5.9 5.2.8.4 1.5.6 2 .7.8.3 1.6.2 2.2.1.7-.1 2-.8 2.3-1.7.3-.8.3-1.5.2-1.7-.1-.1-.3-.2-.6-.4z"/></svg>
+</a>
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+var burger = document.getElementById('burger');
+var menu = document.getElementById('menu');
+burger.addEventListener('click', function(){ menu.classList.toggle('open'); });
+menu.addEventListener('click', function(e){ if(e.target.tagName === 'A'){ menu.classList.remove('open'); } });
+var toast = document.getElementById('toast');
+document.getElementById('inquiry').addEventListener('submit', function(e){
+  e.preventDefault();
+  var val = function(id){ var el = document.getElementById(id); return el ? el.value.trim() : ''; };
+  var need = val('need');
+  var body = [
+    'Name: ' + val('name'),
+    'Company: ' + val('company'),
+    'Email: ' + val('email'),
+    'Country: ' + val('country'),
+    'Requirement: ' + need,
+    'Capacity / tank size: ' + val('capacity'),
+    '',
+    'Details:',
+    val('msg')
+  ].join('\r\n');
+  var subject = 'Inquiry' + (need ? ' — ' + need : '') + (val('company') ? ' — ' + val('company') : '');
+  window.location.href = 'mailto:tonynordtech@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  toast.classList.add('show');
+  setTimeout(function(){ toast.classList.remove('show'); }, 5000);
+  var form = this;
+  setTimeout(function(){ form.reset(); }, 1200);
+});
+</script>
+</body>
+</html>
